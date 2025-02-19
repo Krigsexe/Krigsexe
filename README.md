@@ -43,7 +43,7 @@ Amélioration de l'ambiance et de l'immersion visuelle (lumières, effets, colli
 
 📝 Expériences
 
-✨ Administrateur Système - PRÉPARATION PÉDAGOGIE FORMATION
+✨ Administrateur Système - FREELANCE // Salarié
 
 Supervision des serveurs et des infrastructures réseaux
 
