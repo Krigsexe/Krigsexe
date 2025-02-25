@@ -7,6 +7,9 @@ J'ai acquis une expertise solide dans la création, l'optimisation et la sécuri
 
 📊 Compétences
 
+![image](https://github.com/user-attachments/assets/12b1e5fd-ea83-4ff4-b2b4-899862b4adaa)
+
+
 🛠️ Administration Système
 
 Gestion des serveurs sous Linux & Windows (Debian, Ubuntu, Windows Server)
