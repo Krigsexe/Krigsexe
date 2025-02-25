@@ -7,8 +7,7 @@ J'ai acquis une expertise solide dans la création, l'optimisation et la sécuri
 
 📊 Compétences
 
-![image](https://github.com/user-attachments/assets/12b1e5fd-ea83-4ff4-b2b4-899862b4adaa)
-
+![image](https://github.com/user-attachments/assets/12b1e5fd-ea83-4ff4-b2b4-899862b4adaa) ![image](https://github.com/user-attachments/assets/94313767-90ed-410d-8cf6-9441dcb5f596) ![image](https://github.com/user-attachments/assets/95b5fcfa-c500-491b-9d44-e00bacd16939) ![image](https://github.com/user-attachments/assets/19574a73-45df-45d9-a22d-dd36c7bb53d0) 
 
 🛠️ Administration Système
 
