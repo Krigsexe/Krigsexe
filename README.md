@@ -15,77 +15,70 @@ I’m a 36-year-old professional System & Network Administrator with over 10 yea
 
 ## 📊 Skills
 
-![Skill 1](https://github.com/user-attachments/assets/12b1e5fd-ea83-4ff4-b2b4-899862b4adaa)  
-![Skill 2](https://github.com/user-attachments/assets/94313767-90ed-410d-8cf6-9441dcb5f596)  
-![Skill 3](https://github.com/user-attachments/assets/95b5fcfa-c500-491b-9d44-e00bacd16939)  
-![Skill 4](https://github.com/user-attachments/assets/19574a73-45df-45d9-a22d-dd36c7bb53d0)  
-… and many more!
+![CSS3](https://via.placeholder.com/50?text=CSS3)  
+![Go](https://via.placeholder.com/50?text=Go)  
+![HTML5](https://via.placeholder.com/50?text=HTML5)  
+![Java](https://via.placeholder.com/50?text=Java)  
+![JavaScript](https://via.placeholder.com/50?text=JavaScript)  
+![Lua](https://via.placeholder.com/50?text=Lua)  
+![Markdown](https://via.placeholder.com/50?text=Markdown)  
+![Python](https://via.placeholder.com/50?text=Python)  
+![Rust](https://via.placeholder.com/50?text=Rust)  
+![Bash Script](https://via.placeholder.com/50?text=Bash%20Script)  
+![Swift](https://via.placeholder.com/50?text=Swift)  
+![TypeScript](https://via.placeholder.com/50?text=TypeScript)  
+![AWS](https://via.placeholder.com/50?text=AWS)  
+![Cloudflare](https://via.placeholder.com/50?text=Cloudflare)  
+![DigitalOcean](https://via.placeholder.com/50?text=DigitalOcean)  
+![OVH](https://via.placeholder.com/50?text=OVH)  
+![Vercel](https://via.placeholder.com/50?text=Vercel)  
+![nVIDIA](https://via.placeholder.com/50?text=nVIDIA)  
+![Electron.js](https://via.placeholder.com/50?text=Electron.js)  
+![Esbuild](https://via.placeholder.com/50?text=Esbuild)  
+![Express.js](https://via.placeholder.com/50?text=Express.js)  
+![FastAPI](https://via.placeholder.com/50?text=FastAPI)  
+![Fastify](https://via.placeholder.com/50?text=Fastify)  
+![JWT](https://via.placeholder.com/50?text=JWT)  
+![jQuery](https://via.placeholder.com/50?text=jQuery)  
+![Less](https://via.placeholder.com/50?text=Less)  
+![NPM](https://via.placeholder.com/50?text=NPM)  
+![Next JS](https://via.placeholder.com/50?text=Next%20JS)  
+![NodeJS](https://via.placeholder.com/50?text=NodeJS)  
+![Nodemon](https://via.placeholder.com/50?text=Nodemon)  
+![React](https://via.placeholder.com/50?text=React)  
+![React Native](https://via.placeholder.com/50?text=React%20Native)  
+![React Query](https://via.placeholder.com/50?text=React%20Query)  
+![React Router](https://via.placeholder.com/50?text=React%20Router)  
+![Redux](https://via.placeholder.com/50?text=Redux)  
+![Remix](https://via.placeholder.com/50?text=Remix)  
+![SASS](https://via.placeholder.com/50?text=SASS)  
+![Socket.io](https://via.placeholder.com/50?text=Socket.io)  
+![Styled Components](https://via.placeholder.com/50?text=Styled%20Components)  
+![TailwindCSS](https://via.placeholder.com/50?text=TailwindCSS)  
+![Three js](https://via.placeholder.com/50?text=Three%20js)  
+![Vite](https://via.placeholder.com/50?text=Vite)  
+![Vue.js](https://via.placeholder.com/50?text=Vue.js)  
+![WebGL](https://via.placeholder.com/50?text=WebGL)  
+![Webpack](https://via.placeholder.com/50?text=Webpack)  
+![Web3.js](https://via.placeholder.com/50?text=Web3.js)  
+![Yarn](https://via.placeholder.com/50?text=Yarn)  
+![Nginx](https://via.placeholder.com/50?text=Nginx)  
+![AmazonDynamoDB](https://via.placeholder.com/50?text=AmazonDynamoDB)  
+![Firebase](https://via.placeholder.com/50?text=Firebase)  
+![MariaDB](https://via.placeholder.com/50?text=MariaDB)  
+![MongoDB](https://via.placeholder.com/50?text=MongoDB)  
+![MySQL](https://via.placeholder.com/50?text=MySQL)  
+![Figma](https://via.placeholder.com/50?text=Figma)  
+![Aseprite](https://via.placeholder.com/50?text=Aseprite)  
+![Canva](https://via.placeholder.com/50?text=Canva)  
+![Adobe Photoshop](https://via.placeholder.com/50?text=Adobe%20Photoshop)  
+![Adobe Lightroom](https://via.placeholder.com/50?text=Adobe%20Lightroom)  
+![Plotly](https://via.placeholder.com/50?text=Plotly)  
+![PyTorch](https://via.placeholder.com/50?text=PyTorch)  
+![TensorFlow](https://via.placeholder.com/50?text=TensorFlow)  
+![Git](https://via.placeholder.com/50?text=Git)  
+![GitHub](https://via.placeholder.com/50?text=GitHub)
 
-**Tech Stack:**
-
-- CSS3
-- Go
-- HTML5
-- Java
-- JavaScript
-- Lua
-- Markdown
-- Python
-- Rust
-- Bash Script
-- Swift
-- TypeScript
-- AWS
-- Cloudflare
-- DigitalOcean
-- OVH
-- Vercel
-- nVIDIA
-- Electron.js
-- Esbuild
-- Express.js
-- FastAPI
-- Fastify
-- JWT
-- jQuery
-- Less
-- NPM
-- Next JS
-- NodeJS
-- Nodemon
-- React
-- React Native
-- React Query
-- React Router
-- Redux
-- Remix
-- SASS
-- Socket.io
-- Styled Components
-- TailwindCSS
-- Three js
-- Vite
-- Vue.js
-- WebGL
-- Webpack
-- Web3.js
-- Yarn
-- Nginx
-- AmazonDynamoDB
-- Firebase
-- MariaDB
-- MongoDB
-- MySQL
-- Figma
-- Aseprite
-- Canva
-- Adobe Photoshop
-- Adobe Lightroom
-- Plotly
-- PyTorch
-- TensorFlow
-- Git
-- GitHub
 
 
 ---
