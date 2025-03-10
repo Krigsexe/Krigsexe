@@ -15,6 +15,8 @@ I’m a 36-year-old professional System & Network Administrator with over 10 yea
 
 ## 📊 Skills
 
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
+
 ## 🚀 Tech Stack & Tools
 
 ![All Skills](https://skillicons.dev/icons?i=all)
