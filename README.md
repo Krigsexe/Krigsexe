@@ -1,7 +1,7 @@
 # Hello, I'm KrigS  
 💻 System Administrator | 👨‍💻 FIVEM Developer | 🌐 FIVEM Mapping Helper
 
-![Welcome Banner](https://imgur.com/a/gIKObaq)
+![Welcome Banner]([https://imgur.com/a/gIKObaq](https://github.com/Krigsexe/Banner/blob/main/DALL%C2%B7E%202025-03-10%2017.59.28%20-%20A%20futuristic%20technology-themed%20banner%20for%20GitHub%20featuring%20the%20username%20'Krigs'.%20The%20design%20should%20incorporate%20elements%20of%20quantum%20computing,%20artifici.png?raw=true))
 
 
 ---
