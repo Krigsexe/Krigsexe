@@ -110,6 +110,8 @@ I’m a 36-year-old professional System & Network Administrator with over 10 yea
 - [Jeremy Fiesta](https://jeremyfiesta.fr/)
 - [Atelier Tech by Odin](https://ateliertechbyodin.fr/)
 
+And much more...
+
 ---
 
 ## 📫 Contact
