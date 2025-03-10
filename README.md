@@ -1,7 +1,7 @@
 # Hello, I'm KrigS  
 💻 System Administrator | 👨‍💻 FIVEM Developer | 🌐 FIVEM Mapping Helper
 
-![Welcome Banner](https://via.placeholder.com/1200x300?text=Welcome+to+my+GitHub)
+![Welcome Banner](https://via.placeholder.com/1200x300?text=Welcome+to+my+GitHub](https://imgur.com/a/gIKObaq)
 
 ---
 
