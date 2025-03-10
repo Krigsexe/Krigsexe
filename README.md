@@ -19,7 +19,7 @@ I’m a 36-year-old professional System & Network Administrator with over 10 yea
 
 ![All Skills](https://skillicons.dev/icons?i=all)
 
-## 📌 Technologies Individuelles
+## 📌 Earns & Learns </>
 
 ![CSS3](https://skillicons.dev/icons?i=css)
 ![Go](https://skillicons.dev/icons?i=go)
@@ -34,8 +34,6 @@ I’m a 36-year-old professional System & Network Administrator with over 10 yea
 ![TypeScript](https://skillicons.dev/icons?i=typescript)
 ![AWS](https://skillicons.dev/icons?i=aws)
 ![Cloudflare](https://skillicons.dev/icons?i=cloudflare)
-![DigitalOcean](https://skillicons.dev/icons?i=digitalocean)
-![OVH](https://skillicons.dev/icons?i=ovh)
 ![Vercel](https://skillicons.dev/icons?i=vercel)
 ![Nginx](https://skillicons.dev/icons?i=nginx)
 ![Firebase](https://skillicons.dev/icons?i=firebase)
