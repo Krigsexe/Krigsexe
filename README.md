@@ -21,6 +21,73 @@ I’m a 36-year-old professional System & Network Administrator with over 10 yea
 ![Skill 4](https://github.com/user-attachments/assets/19574a73-45df-45d9-a22d-dd36c7bb53d0)  
 … and many more!
 
+**Tech Stack:**
+
+- CSS3
+- Go
+- HTML5
+- Java
+- JavaScript
+- Lua
+- Markdown
+- Python
+- Rust
+- Bash Script
+- Swift
+- TypeScript
+- AWS
+- Cloudflare
+- DigitalOcean
+- OVH
+- Vercel
+- nVIDIA
+- Electron.js
+- Esbuild
+- Express.js
+- FastAPI
+- Fastify
+- JWT
+- jQuery
+- Less
+- NPM
+- Next JS
+- NodeJS
+- Nodemon
+- React
+- React Native
+- React Query
+- React Router
+- Redux
+- Remix
+- SASS
+- Socket.io
+- Styled Components
+- TailwindCSS
+- Three js
+- Vite
+- Vue.js
+- WebGL
+- Webpack
+- Web3.js
+- Yarn
+- Nginx
+- AmazonDynamoDB
+- Firebase
+- MariaDB
+- MongoDB
+- MySQL
+- Figma
+- Aseprite
+- Canva
+- Adobe Photoshop
+- Adobe Lightroom
+- Plotly
+- PyTorch
+- TensorFlow
+- Git
+- GitHub
+
+
 ---
 
 ## 🛠️ System Administration
