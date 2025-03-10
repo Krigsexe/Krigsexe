@@ -1,7 +1,7 @@
 # Hello, I'm KrigS  
 💻 System Administrator | 👨‍💻 FIVEM Developer | 🌐 FIVEM Mapping Helper
 
-![Welcome Banner](DALL·E 2025-03-10 17.59.28 - A futuristic technology-themed banner for GitHub featuring the username 'Krigs'. The design should incorporate elements of quantum computing, artifici.png)
+![Welcome Banner]([DALL·E 2025-03-10 17.59.28 - A futuristic technology-themed banner for GitHub featuring the username 'Krigs'. The design should incorporate elements of quantum computing, artifici.png](https://raw.githubusercontent.com/Krigsexe/Banner/refs/heads/main/DALL%C2%B7E%202025-03-10%2017.59.28%20-%20A%20futuristic%20technology-themed%20banner%20for%20GitHub%20featuring%20the%20username%20'Krigs'.%20The%20design%20should%20incorporate%20elements%20of%20quantum%20computing%2C%20artifici.png))
 
 
 ---
