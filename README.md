@@ -281,17 +281,28 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 <div align="center">
 
-### 🤖 ODIN Framework
-*Autonomous AI Agent for Development & Auditing*
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Project-181717?logo=github&style=for-the-badge)](https://github.com/Krigsexe/AI-Context-Engineering)
+  <h3>🚀 Featured Projects | Projets Phares</h3>
 
-### 🧠 Man-Q-ind Project
-*AI Ethics & Future Research Initiative*
-[![Website](https://img.shields.io/badge/Website-Learn%20More-FF6B6B?style=for-the-badge)](https://proxitek.fr)
+  <!-- ODIN Framework -->
+  <h3>🤖 ODIN Framework</h3>
+  <a href="https://github.com/Krigsexe/AI-Context-Engineering" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-View%20Project-181717?logo=github&style=for-the-badge" alt="GitHub Button">
+  </a>
+  <p><em>Autonomous AI Agent for Development & Auditing</em></p>
 
-### 🎮 FiveM Custom Scripts
-*Advanced QBCore & ESX Development*
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Work-4ECDC4?style=for-the-badge)](https://wcx-host.fr)
+  <!-- Man-Q-ind Project -->
+  <h3>🧠 Man-Q-ind Project</h3>
+  <a href="https://proxitek.fr" target="_blank">
+    <img src="https://img.shields.io/badge/Website-Learn%20More-FF6B6B?style=for-the-badge" alt="Website Button">
+  </a>
+  <p><em>AI Ethics & Future Research Initiative</em></p>
+
+  <!-- FiveM Custom Scripts -->
+  <h3>🎮 FiveM Custom Scripts</h3>
+  <a href="https://wcx-host.fr" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-View%20Work-4ECDC4?style=for-the-badge" alt="Portfolio Button">
+  </a>
+  <p><em>Advanced QBCore & ESX Development</em></p>
 
 </div>
 
