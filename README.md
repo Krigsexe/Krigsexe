@@ -19,6 +19,7 @@
 
 ---
 
+<a id="français"></a>
 ## 🇫🇷 Français
 
 ### 🙋‍♂️ À propos de moi
@@ -107,6 +108,7 @@ Je suis **Julien Gelée**, développeur fullstack passionné et administrateur s
 
 ---
 
+<a id="english"></a>
 ## 🇬🇧 English
 
 ### 🙋‍♂️ About Me
