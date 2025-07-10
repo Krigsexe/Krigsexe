@@ -305,11 +305,11 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 ---
 
-## 🐍 Contribution Snake | Serpent de Contribution
+## 🐍 Contribution Snake | Serpent de Contribution 🤣
 
 <div align="center">
 
-![Snake Animation](https://github.com/Krigsexe/Krigsexe/blob/output/github-contribution-grid-snake.svg)
+![Snake Animation](https://miro.medium.com/v2/resize:fit:1400/1*69OSwEbMMvxTJDvjJtWx1Q.gif)
 
 </div>
 
