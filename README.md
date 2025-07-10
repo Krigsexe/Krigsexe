@@ -369,7 +369,6 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Krigsexe&color=blueviolet&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/Krigsexe?style=for-the-badge&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/Krigsexe?style=for-the-badge&logo=github)
 
 </div>
 
