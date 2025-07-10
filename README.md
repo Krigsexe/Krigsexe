@@ -27,7 +27,7 @@ Je suis **Julien Gelée**, développeur fullstack passionné et administrateur s
 
 **🔥 Passion & Apprentissage continu**
 - 🎯 **Forte appétence pour la tech** - Toujours à l'affût des dernières innovations
-- 📚 **Capacités d'apprentissage exceptionnelles** - L'évolution constante de la technologie nourrit ma curiosité
+- 📚 **Capacités d'apprentissage** - L'évolution constante de la technologie nourrit ma curiosité
 - 🤝 **Disponible pour échanger** - Ouvert aux discussions techniques et collaborations
 - 💡 **Veille technologique permanente** - Car on ne cesse d'apprendre tous les jours !
 
