@@ -37,7 +37,7 @@ Je suis **Julien Gelée**, développeur fullstack passionné et administrateur s
 - 🔧 **SysAdmin & Network Engineer Freelance** - Spécialiste en infrastructure, virtualisation et réseaux
 - 🧠 **Fondateur du projet Man-Q-ind** - Recherche sur l'éthique et le futur de l'IA
 - 🖥️ **Créateur du framework ODIN** - Agent autonome IA pour développement et audit
-  - 📖 [Documentation AI-Context-Engineering](https://github.com/Krigsexe/AI-Context-Engineering)
+- 📖 [Documentation AI-Context-Engineering](https://github.com/Krigsexe/AI-Context-Engineering)
 - 🚀 **Entrepreneur** - Plus de 5 années d'expérience entrepreneuriale
 - 👷‍♂️ **Contributeur actif** - Projets open source et communautaires
 
@@ -220,7 +220,7 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white&style=for-the-badge)
 ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)
 
-### � Networks & Security | Réseaux & Sécurité
+### 🌐 Networks & Security | Réseaux & Sécurité
 ![Ubiquiti](https://img.shields.io/badge/-Ubiquiti-0559C9?logo=ubiquiti&logoColor=white&style=for-the-badge)
 ![3CX](https://img.shields.io/badge/-3CX-0099CC?style=for-the-badge)
 ![VoIP](https://img.shields.io/badge/-VoIP-FF6B35?style=for-the-badge)
