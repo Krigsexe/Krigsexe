@@ -4,7 +4,7 @@
 
 [![Language](https://img.shields.io/badge/Language-FR%20%7C%20EN-blue)](#language-switch)
 [![Profile Views](https://komarev.com/ghpvc/?username=Krigsexe&color=blueviolet)](https://github.com/Krigsexe)
-[![GitHub followers](https://img.shields.io/github/followers/Krigsexe?style=social)](https://github.com/Krigsexe)
+[![GitHub followers](https://img.shields.io/github/followers/Krigsexe?style=social)]([https://github.com/Krigsexe](https://github.com/Krigsexe?tab=followers))
 
 **🎯 Full Stack Developer | ⚙️ Systems Administrator | 🎮 FiveM Scripting Enthusiast | 🤖 AI Explorer**
 
