@@ -126,7 +126,7 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 - 🔧 **SysAdmin & Network Engineer Freelance** - Infrastructure, virtualization and network specialist
 - 🧠 **Founder of Man-Q-ind project** - Research on AI ethics and future
 - 🖥️ **Creator of ODIN framework** - Autonomous AI agent for development and auditing
-  - 📖 [AI-Context-Engineering Documentation](https://github.com/Krigsexe/AI-Context-Engineering)
+- 📖 [AI-Context-Engineering Documentation](https://github.com/Krigsexe/AI-Context-Engineering)
 - 🚀 **Entrepreneur** - Over 5 years of entrepreneurial experience
 - 👷‍♂️ **Active Contributor** - Open source and community projects
 
@@ -343,7 +343,7 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 **💬 Échangeons ensemble :**
 - 🎯 **Projets innovants** - Développement d'applications ou d'infrastructures
 - 🤖 **Intelligence Artificielle** - Recherche et développement d'agents autonomes
-- � **Ingénierie Réseau** - Solutions Ubiquiti et infrastructures réseau
+- 🌐 **Ingénierie Réseau** - Solutions Ubiquiti et infrastructures réseau
 - 🔒 **Sécurité & Vidéoprotection** - Systèmes de surveillance et sécurité
 - 🎮 **Dev & Passion** - Création de ressources FiveM et projets gaming
 - 🔧 **Administration Système** - Optimisation et automatisation d'infrastructures
@@ -356,7 +356,7 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 **💬 Let's exchange together:**
 - 🎯 **Innovative Projects** - Application or infrastructure development
 - 🤖 **Artificial Intelligence** - Research and development of autonomous agents
-- � **Network Engineering** - Ubiquiti solutions and network infrastructures
+- 🌐 **Network Engineering** - Ubiquiti solutions and network infrastructures
 - 🔒 **Security & Video Surveillance** - Surveillance and security systems
 - 🎮 **Dev & Passion** - Creation of FiveM resources and gaming projects
 - 🔧 **Systems Administration** - Infrastructure optimization and automation
