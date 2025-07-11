@@ -324,7 +324,11 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 ### 🎮 Interactive Snake Game | Jeu du Serpent Interactif
 
-[![Play Snake Game](https://img.shields.io/badge/🎮%20Play%20Snake%20Game-Click%20Here!-success?style=for-the-badge&logo=github)](https://krigsexe.github.io/Krigsexe/snake-game.html)
+[![Play Snake Game](https://img.shields.io/badge/🎮%20Play%20Snake%20Game-Click%20Here!-success?style=for-the-badge&logo=github)](https://htmlpreview.github.io/?https://github.com/Krigsexe/Krigsexe/blob/main/snake-game.html)
+
+> 🔗 **Alternative Links | Liens Alternatifs :**
+> - 🌐 [GitHub Pages](https://krigsexe.github.io/Krigsexe/snake-game.html) *(Disponible après activation de GitHub Pages)*
+> - 📁 [View Source Code | Voir le Code Source](https://github.com/Krigsexe/Krigsexe/blob/main/snake-game.html)
 
 *🎮 Want to play a real Snake game? Click the button above! | Envie de jouer à un vrai jeu Snake ? Cliquez sur le bouton ci-dessus !*
 
