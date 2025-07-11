@@ -326,6 +326,8 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 [![Play Snake Game](https://img.shields.io/badge/🎮%20Play%20Snake%20Game-Click%20Here!-success?style=for-the-badge&logo=github)](https://krigsexe.github.io/Krigsexe/snake-game.html)
 
+*🎮 Want to play a real Snake game? Click the button above! | Envie de jouer à un vrai jeu Snake ? Cliquez sur le bouton ci-dessus !*
+
 <details>
 <summary>🕹️ <strong>Game Features | Fonctionnalités du Jeu</strong></summary>
 
@@ -352,9 +354,8 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 ### 📊 GitHub Contribution Graph | Graphique de Contribution GitHub
 
-![Snake Animation](https://miro.medium.com/v2/resize:fit:1400/1*69OSwEbMMvxTJDvjJtWx1Q.gif)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Krigsexe&theme=radical&hide_border=true)
 
-*🎮 Want to play a real Snake game? Click the button above! | Envie de jouer à un vrai jeu Snake ? Cliquez sur le bouton ci-dessus !*
 
 </div>
 
