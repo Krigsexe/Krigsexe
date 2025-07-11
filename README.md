@@ -354,15 +354,6 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 ---
 
-### 📊 GitHub Contribution Graph | Graphique de Contribution GitHub
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Krigsexe&theme=radical&hide_border=true)
-
-
-</div>
-
----
-
 ## 💡 Personal Philosophy | Philosophie Personnelle
 
 <div align="center">
