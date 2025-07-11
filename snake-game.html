@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game | Jeu du Serpent</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+    #gameContainer {
+      width: 400px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    #gameCanvas {
+      border: 2px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    #score {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    #gameOver {
+      font-size: 24px;
+      color: red;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    #startButton, #themeToggle {
+      font-size: 18px;
+      padding: 12px 24px;
+      margin: 8px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: bold;
+    }
+    #startButton {
+      background: linear-gradient(45deg, #4CAF50, #45a049);
+      color: white;
+    }
+    #startButton:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    #themeToggle {
+      background: linear-gradient(45deg, #2196F3, #1976D2);
+      color: white;
+    }
+    #themeToggle:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    #instructions {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+    /* Light theme (default) */
+    .light-theme {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #333;
+      min-height: 100vh;
+    }
+    .light-theme #gameCanvas {
+      background-color: #f0f0f0;
+    }
+    .light-theme #score, .light-theme #gameOver {
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    .light-theme #instructions {
+      color: #fff;
+    }
+    /* Dark theme */
+    .dark-theme {
+      background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+      color: #ecf0f1;
+      min-height: 100vh;
+    }
+    .dark-theme #gameCanvas {
+      background-color: #2c3e50;
+      border-color: #ecf0f1;
+    }
+    .dark-theme #score, .dark-theme #gameOver {
+      color: #ecf0f1;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .dark-theme #instructions {
+      color: #bdc3c7;
+    }
+    h1 {
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body class="light-theme">
+  <div id="gameContainer">
+    <h1>🐍 Snake Game | Jeu du Serpent 🎮</h1>
+    <div id="score">Score: 0</div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div>
+      <button id="startButton">🎮 Start Game | Commencer</button>
+      <button id="themeToggle">🌙 Switch to Dark Mode</button>
+    </div>
+    <div id="gameOver" style="display:none;">
+      🎯 Game Over! Final Score: <span id="finalScore"></span>
+      <br>🔄 Click Start to play again!
+    </div>
+    <div id="instructions">
+      <p>🎯 <strong>How to play | Comment jouer :</strong></p>
+      <p>🔸 Use arrow keys to control the snake | Utilisez les flèches pour contrôler le serpent</p>
+      <p>🔸 Eat red food to grow and score | Mangez la nourriture rouge pour grandir</p>
+      <p>🔸 Don't hit walls or yourself | Évitez les murs et votre propre corps</p>
+    </div>
+  </div>
+  <script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+    const scoreElement = document.getElementById('score');
+    const startButton = document.getElementById('startButton');
+    const gameOverElement = document.getElementById('gameOver');
+    const finalScoreElement = document.getElementById('finalScore');
+    const themeToggle = document.getElementById('themeToggle');
+    let snake;
+    let food;
+    let direction;
+    let score;
+    let gameInterval;
+    let gameRunning = false;
+    const cellSize = 20;
+    const gridSize = 20;
+
+    function initGame() {
+      snake = [
+        {x: 5, y: 5},
+        {x: 4, y: 5},
+        {x: 3, y: 5}
+      ];
+      direction = 'right';
+      score = 0;
+      scoreElement.textContent = 'Score: 0';
+      gameOverElement.style.display = 'none';
+      gameRunning = true;
+      generateFood();
+    }
+
+    function generateFood() {
+      let x, y;
+      do {
+        x = Math.floor(Math.random() * gridSize);
+        y = Math.floor(Math.random() * gridSize);
+      } while (snake.some(segment => segment.x === x && segment.y === y));
+      food = {x, y};
+    }
+
+    function gameLoop() {
+      if (!gameRunning) return;
+      update();
+      draw();
+    }
+
+    function update() {
+      let head = { ...snake[0] };
+      
+      if (direction === 'right') head.x++;
+      else if (direction === 'left') head.x--;
+      else if (direction === 'up') head.y--;
+      else if (direction === 'down') head.y++;
+
+      // Check collision with walls or self
+      if (head.x < 0 || head.x >= gridSize || head.y < 0 || head.y >= gridSize || 
+          snake.some(segment => segment.x === head.x && segment.y === head.y)) {
+        gameOver();
+        return;
+      }
+
+      snake.unshift(head);
+
+      // Check if food is eaten
+      if (head.x === food.x && head.y === food.y) {
+        score++;
+        scoreElement.textContent = `Score: ${score}`;
+        generateFood();
+      } else {
+        snake.pop();
+      }
+    }
+
+    function draw() {
+      // Clear canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      // Draw snake with gradient
+      snake.forEach((segment, index) => {
+        const opacity = 1 - (index * 0.1);
+        if (index === 0) {
+          // Head
+          ctx.fillStyle = '#4CAF50';
+        } else {
+          // Body
+          ctx.fillStyle = `rgba(76, 175, 80, ${Math.max(opacity, 0.3)})`;
+        }
+        ctx.fillRect(segment.x * cellSize + 1, segment.y * cellSize + 1, cellSize - 2, cellSize - 2);
+        
+        // Add eyes to the head
+        if (index === 0) {
+          ctx.fillStyle = 'white';
+          ctx.fillRect(segment.x * cellSize + 5, segment.y * cellSize + 5, 3, 3);
+          ctx.fillRect(segment.x * cellSize + 12, segment.y * cellSize + 5, 3, 3);
+          ctx.fillStyle = 'black';
+          ctx.fillRect(segment.x * cellSize + 6, segment.y * cellSize + 6, 1, 1);
+          ctx.fillRect(segment.x * cellSize + 13, segment.y * cellSize + 6, 1, 1);
+        }
+      });
+
+      // Draw food with pulsing effect
+      const pulse = Math.sin(Date.now() / 200) * 0.1 + 0.9;
+      ctx.fillStyle = `rgba(244, 67, 54, ${pulse})`;
+      ctx.fillRect(food.x * cellSize + 2, food.y * cellSize + 2, cellSize - 4, cellSize - 4);
+      
+      // Add shine to food
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+      ctx.fillRect(food.x * cellSize + 4, food.y * cellSize + 4, 4, 4);
+    }
+
+    function gameOver() {
+      gameRunning = false;
+      clearInterval(gameInterval);
+      gameOverElement.style.display = 'block';
+      finalScoreElement.textContent = score;
+      startButton.style.display = 'inline-block';
+      startButton.textContent = '🔄 Play Again | Rejouer';
+    }
+
+    startButton.addEventListener('click', () => {
+      startButton.style.display = 'none';
+      startButton.textContent = '🎮 Start Game | Commencer';
+      initGame();
+      gameInterval = setInterval(gameLoop, 150);
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (!gameRunning) return;
+      
+      const key = event.key;
+      if (key === 'ArrowRight' && direction !== 'left') {
+        direction = 'right';
+      } else if (key === 'ArrowLeft' && direction !== 'right') {
+        direction = 'left';
+      } else if (key === 'ArrowUp' && direction !== 'down') {
+        direction = 'up';
+      } else if (key === 'ArrowDown' && direction !== 'up') {
+        direction = 'down';
+      }
+      event.preventDefault();
+    });
+
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('light-theme');
+      document.body.classList.toggle('dark-theme');
+      themeToggle.textContent = document.body.classList.contains('dark-theme') ? 
+        '☀️ Switch to Light Mode' : '🌙 Switch to Dark Mode';
+    });
+
+    // Initialize canvas
+    draw();
+  </script>
+</body>
+</html>

@@ -322,7 +322,39 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 
 <div align="center">
 
+### 🎮 Interactive Snake Game | Jeu du Serpent Interactif
+
+[![Play Snake Game](https://img.shields.io/badge/🎮%20Play%20Snake%20Game-Click%20Here!-success?style=for-the-badge&logo=github)](https://krigsexe.github.io/Krigsexe/snake-game.html)
+
+<details>
+<summary>🕹️ <strong>Game Features | Fonctionnalités du Jeu</strong></summary>
+
+**🎯 Game Controls | Contrôles du Jeu :**
+- 🔸 **Arrow Keys** - Control snake direction | Contrôlez la direction du serpent
+- 🔸 **Space/Click Start** - Begin game | Commencer le jeu
+- 🔸 **Theme Toggle** - Switch between light/dark mode | Basculer entre mode clair/sombre
+
+**🏆 Gameplay | Règles du Jeu :**
+- 🍎 **Eat red food** to grow and increase score | Mangez la nourriture rouge pour grandir
+- 🚫 **Avoid walls** and don't hit yourself | Évitez les murs et ne vous mordez pas
+- 📈 **Score increases** with each food consumed | Le score augmente à chaque nourriture consommée
+- 🎨 **Beautiful graphics** with smooth animations | Graphismes soignés avec animations fluides
+
+**✨ Features | Fonctionnalités :**
+- 🌙 **Dark/Light Theme** - Switch themes on the fly | Basculement de thème à la volée
+- 🎯 **Responsive Design** - Works on all devices | Design adaptatif pour tous les appareils
+- 🎮 **Smooth Gameplay** - Optimized performance | Gameplay fluide et optimisé
+- 🏅 **Score Tracking** - Keep track of your best scores | Suivi des meilleurs scores
+
+</details>
+
+---
+
+### 📊 GitHub Contribution Graph | Graphique de Contribution GitHub
+
 ![Snake Animation](https://miro.medium.com/v2/resize:fit:1400/1*69OSwEbMMvxTJDvjJtWx1Q.gif)
+
+*🎮 Want to play a real Snake game? Click the button above! | Envie de jouer à un vrai jeu Snake ? Cliquez sur le bouton ci-dessus !*
 
 </div>
 
