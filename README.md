@@ -74,7 +74,7 @@ Je suis **Julien Gelée**, développeur fullstack passionné et administrateur s
 - **Intelligence Artificielle** - Développement d'agents autonomes et outils d'audit
 - **Entrepreneuriat** - Gestion de projets et développement commercial
 
-#### 🏢 Réalisations Professionnelles
+#### 🏢 3 Réalisations Professionnelles Majeures Types : 
 
 **📍 Daviaud Ameublement**
 - 🌐 **Site web complet** - [daviaud-ameublement.fr](https://daviaud-ameublement.fr)
@@ -88,6 +88,64 @@ Je suis **Julien Gelée**, développeur fullstack passionné et administrateur s
 - 🖥️ **Serveurs & postes de travail** - Déploiement système complet
 - 📞 **Téléphonie VoIP** - Solution de communication unifiée
 - 🔒 **Ubiquiti Firewall + Switch** - Sécurité et infrastructure réseau
+
+## 🏆 Problème le Plus Difficile Résolu
+
+### 🇫🇷 Contexte et Défi
+Dans le cadre de la crise mondiale liée à l’attaque **CrowdStrike de juillet 2024**, j’ai été missionné en urgence, 
+pour restructurer l’intégralité du système d’information de **Preparation Pédagogie Formation** (Holding Pivot Point FR, Shortcuts FR, EverBlue, ...) 
+Une PME comptant environ **50 collaborateurs** (salariés, freelances, prestataires).  
+
+Le défi consistait à moderniser un système obsolète dans un délai extrêmement court, tout en maintenant la continuité des activités.  
+
+### 🎯 Objectifs
+- **Rétablir la stabilité** du système d’information post-crise  
+- **Moderniser l’infrastructure** pour répondre aux besoins actuels et futurs  
+- **Garantir zéro interruption prolongée** des opérations  
+- **Assurer la sécurité et la fiabilité** des données critiques  
+
+### 🚀 Actions Réalisées
+1. **État des Lieux et Analyse**  
+   - Audit complet de l’existant : Windows Server 2012, postes sous Windows 7/8/10, machines Linux  
+   - Analyse des besoins avec la direction pour définir les priorités  
+
+2. **Gestion de Projet**  
+   - Planification rigoureuse et suivi budgétaire  
+   - Demandes de devis et coordination avec les fournisseurs  
+
+3. **Choix et Achat de Matériel**  
+   - Acquisition d’un **serveur principal** et d’un **serveur PRA**  
+   - Mise en place d’un **NAS Synology en RAID 5** pour des sauvegardes redondantes  
+
+4. **Virtualisation et Infrastructure**  
+   - Configuration de la virtualisation sur le serveur principal (VM pour production, développement, support)  
+   - Reconstruction de l’**Active Directory** et intégration à **Azure AD**  
+
+5. **Réinstallation du CRM**  
+   - Migration complète du CRM d’entreprise avec **25 ans de données critiques**  
+   - Validation de l’intégrité des données post-migration  
+
+6. **Modernisation des Postes Utilisateurs**  
+   - Homogénéisation des systèmes sur l’ensemble des postes de travail  
+   - Reconfiguration complète pour une compatibilité optimale  
+
+7. **Téléphonie IP**  
+   - Déploiement d’une solution **3CX** pour moderniser la téléphonie  
+
+8. **Hébergement et Messagerie**  
+   - Migration complète de l’hébergement web  
+   - Mise en place de **sauvegardes automatisées et sécurisées** pour la messagerie  
+
+### 📊 Résultats
+- **Délai** : Projet réalisé en **2 mois**, dans un contexte d’urgence  
+- **Continuité** : Aucune rupture prolongée des activités  
+- **Fiabilité** : Système modernisé, sécurisé et évolutif  
+- **Satisfaction** : Validation complète par la direction et les collaborateurs  
+
+### 🧠 Enseignements
+Ce projet a nécessité une combinaison de compétences techniques, organisationnelles et humaines. La gestion de l’urgence, la coordination multi-acteurs et la garantie de fiabilité dans un délai contraint ont été les clés du succès.  
+
+---
 
 #### 💭 Philosophie professionnelle
 
@@ -163,20 +221,79 @@ I'm **Julien Gelée**, a passionate full-stack developer and freelance systems a
 - **Artificial Intelligence** - Development of autonomous agents and audit tools
 - **Entrepreneurship** - Project management and business development
 
-#### 🏢 Professional Achievements
+#### 🏢 3 Major Professional Achievements:
 
 **📍 Daviaud Ameublement**
-- 🌐 **Complete website** - [daviaud-ameublement.fr](https://daviaud-ameublement.fr)
-- 📹 **Video surveillance installation** - Professional surveillance system
-- 🔧 **Complete infrastructure** - Network and security
+- 🌐 **Full Website** – [daviaud-ameublement.fr](https://daviaud-ameublement.fr)
+- 📹 **Video Surveillance Installation** – Professional monitoring system
+- 🔧 **Complete Infrastructure** – Network and security setup
 
-**📍 Parapharmacie Carrefour Beaujoire** - [📍 View location](https://g.co/kgs/hfY6onB)
-- 📹 **Video surveillance system** - Complete site surveillance
-- 🔊 **Advertising sound system** - Audio marketing broadcast
-- 🌐 **Patch panel + Network** - Complete network infrastructure
-- 🖥️ **Servers & workstations** - Complete system deployment
-- 📞 **VoIP telephony** - Unified communication solution
-- 🔒 **Ubiquiti Firewall + Switch** - Security and network infrastructure
+**📍 Carrefour Beaujoire Parapharmacy** – [📍 View Location](https://g.co/kgs/hfY6onB)
+- 📹 **Video Surveillance System** – Full-site monitoring
+- 🔊 **Advertising Audio System** – In-store marketing audio broadcast
+- 🌐 **Patch Panel + Network** – Complete network infrastructure
+- 🖥️ **Servers & Workstations** – Full system deployment
+- 📞 **VoIP Telephony** – Unified communication solution
+- 🔒 **Ubiquiti Firewall + Switch** – Network security and infrastructure
+
+## 🏆 Most Challenging Problem Solved
+
+### 🇫🇷 Context & Challenge
+During the **global CrowdStrike cyberattack of July 2024**, I was urgently assigned to restructure the entire IT system of  
+**Préparation Pédagogie Formation** (Pivot Point FR Holding, Shortcuts FR, EverBlue, ...) —  
+an SME with around **50 collaborators** (employees, freelancers, service providers).
+
+The challenge was to modernize an outdated system in an extremely short timeframe while ensuring full business continuity.
+
+### 🎯 Objectives
+- **Restore information system stability** post-crisis  
+- **Modernize infrastructure** to meet both current and future needs  
+- **Ensure zero prolonged downtime**  
+- **Guarantee the security and reliability** of all critical data  
+
+### 🚀 Actions Taken
+1. **Assessment & Analysis**  
+   - Complete audit of the existing setup: Windows Server 2012, Windows 7/8/10 workstations, Linux machines  
+   - Needs analysis with leadership to prioritize tasks  
+
+2. **Project Management**  
+   - Detailed planning and budget tracking  
+   - Vendor quote requests and coordination  
+
+3. **Hardware Procurement**  
+   - Purchase of a **main server** and a **disaster recovery server (DRP)**  
+   - Setup of a **Synology NAS (RAID 5)** for redundant backups  
+
+4. **Virtualization & Infrastructure**  
+   - Virtualization configuration on the main server (VMs for production, dev, support)  
+   - Rebuild of **Active Directory** and integration with **Azure AD**  
+
+5. **CRM Reinstallation**  
+   - Complete migration of the company's CRM with **25 years of critical data**  
+   - Integrity check and validation post-migration  
+
+6. **User Workstation Modernization**  
+   - OS standardization across all workstations  
+   - Full reconfiguration for optimal performance  
+
+7. **IP Telephony**  
+   - Deployment of a **3CX** solution to modernize phone communications  
+
+8. **Hosting & Email Services**  
+   - Full migration of web hosting infrastructure  
+   - Implementation of **secure, automated email backups**  
+
+### 📊 Results
+- **Timeline**: Project completed in **2 months**, despite the emergency context  
+- **Continuity**: No major operational disruptions  
+- **Reliability**: A secure, scalable, and fully modernized system  
+- **Satisfaction**: Fully validated by leadership and team members  
+
+### 🧠 Key Takeaways
+This project required a unique mix of technical, organizational, and interpersonal skills.  
+The ability to manage urgency, coordinate multiple stakeholders, and deliver results under pressure was essential to its success.
+
+---
 
 #### 💭 Professional Philosophy
 
