@@ -6,10 +6,6 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=Krigsexe&color=blueviolet)](https://github.com/Krigsexe)
 [![GitHub followers](https://img.shields.io/github/followers/Krigsexe?style=social)](https://github.com/Krigsexe?tab=followers)
 
-## 🏆 GitHub Achievements
-
-![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=Krigsexe&theme=gruvbox)
-
 **🎯 Full Stack Developer | ⚙️ Systems Administrator | 🎮 FiveM Scripting Enthusiast | 🤖 AI Explorer**
 
 ---
@@ -363,7 +359,7 @@ The ability to manage urgency, coordinate multiple stakeholders, and deliver res
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Krigsexe&theme=darkhub&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=Krigsexe&theme=gruvbox)
 
 </div>
 
