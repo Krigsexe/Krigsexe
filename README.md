@@ -161,7 +161,7 @@ Ce projet a nécessité une combinaison de compétences techniques, organisation
 
 - 🔗 **Discord**: [dsc.gg/proxitek](https://dsc.gg/proxitek)
 - 📫 **Email**: [github.mocker221@passfwd.com](mailto:github.mocker221@passfwd.com)
-- 💼 **Sites associés**: [wcx-host.fr](https://wcx-host.fr) | [proxitek.fr](https://proxitek.fr)
+- 💼 **Sites associés**: [proxitek.fr](https://proxitek.fr)
 - 👨‍💻 **GitHub**: [github.com/Krigsexe](https://github.com/Krigsexe)
 
 ---
@@ -309,7 +309,7 @@ The ability to manage urgency, coordinate multiple stakeholders, and deliver res
 
 - 🔗 **Discord**: [dsc.gg/proxitek](https://dsc.gg/proxitek)
 - 📫 **Email**: [github.mocker221@passfwd.com](mailto:github.mocker221@passfwd.com)
-- 💼 **Associated Sites**: [wcx-host.fr](https://wcx-host.fr) | [proxitek.fr](https://proxitek.fr)
+- 💼 **Associated Sites**: [proxitek.fr](https://proxitek.fr)
 - 👨‍💻 **GitHub**: [github.com/Krigsexe](https://github.com/Krigsexe)
 
 ---
