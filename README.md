@@ -398,7 +398,6 @@ This project required a unique mix of technical, organizational, and interperson
 
 ### 🌐 My Links
 
-- 📫 **Professional Email**: [geleej@gmail.com](mailto:geleej@gmail.com)
 - 📱 **Phone**: +33 7 68 21 32 07
 - 🔗 **Discord**: [dsc.gg/proxitek](https://dsc.gg/proxitek)
 - 📧 **Contact Email**: [github.mocker221@passfwd.com](mailto:github.mocker221@passfwd.com)
