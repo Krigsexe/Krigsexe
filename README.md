@@ -40,7 +40,7 @@ Je suis **Julien Gelée**, Architecte Infrastructure et Consultant DevOps avec *
 Holding suisse spécialisée dans l'innovation digitale et le développement de produits SaaS (Alixia).
 - Architecturé et déployé l'infrastructure cloud multi-zone (AWS/GCP) automatisant 90 % des déploiements CI/CD
 - Piloté la sécurité (IAM, monitoring avancé) et la conformité RGPD suisse/UE, réduisant les incidents critiques de 70 %
-- Développé et lancé deux produits IA en production, générant plus de 20 000 requêtes mensuelles
+- Développé et lancé deux produits IA en production, générant plus de 3M requêtes mensuelles
 
 **Alixia.ch | Lead Technique - [Alixia & Alixia AI](https://alixia.ch)**  
 SaaS d'automatisation pour la génération de contenus et d'assistants conversationnels IA.
@@ -103,9 +103,9 @@ Consulting, développement d'applications et infrastructures cloud pour startups
 #### Formation et certifications
 
 - Master Informatique (VAE)
-- AWS Certified Solutions Architect (2025)
-- Certified Kubernetes Administrator (CKA) (2024)
-- Terraform Associate et CI/CD DevOps – Udemy (2023)
+- AWS Certified Solutions Architect
+- Certified Kubernetes Administrator (CKA)
+- Terraform Associate et CI/CD DevOps – Udemy
 
 #### Domaines d'expertise
 
@@ -238,7 +238,7 @@ I'm **Julien Gelée**, Infrastructure Architect and DevOps Consultant with **12+
 Swiss holding company specializing in digital innovation and SaaS product development (Alixia).
 - Architected and deployed multi-zone cloud infrastructure (AWS/GCP), automating 90 % of CI/CD deployments  
 - Led security (IAM, advanced monitoring) and Swiss/EU GDPR compliance, reducing critical incidents by 70 %  
-- Developed and launched two AI products in production, generating more than 20,000 monthly requests  
+- Developed and launched two AI products in production, generating more than 3M monthly requests  
 
 **Alixia.ch | Technical Lead**  
 Automation SaaS for content generation and conversational AI assistants.
@@ -301,9 +301,9 @@ Consulting, application development, and cloud infrastructures for startups and 
 #### Education and certifications
 
 - Master's degree in Computer Science (VAE)  
-- AWS Certified Solutions Architect (2025)  
-- Certified Kubernetes Administrator (CKA) (2024)  
-- Terraform Associate and CI/CD DevOps – Udemy (2023)  
+- AWS Certified Solutions Architect  
+- Certified Kubernetes Administrator (CKA)  
+- Terraform Associate and CI/CD DevOps – Udemy
 
 #### Areas of expertise
 
