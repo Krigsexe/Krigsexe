@@ -63,7 +63,7 @@ Consulting, développement d'applications et infrastructures cloud pour startups
 **Projets communautaires et open source**
 - Fondateur du projet Man-Q-ind, recherche sur l'éthique et le futur de l'IA
 - Créateur du framework ODIN, agent autonome IA pour développement et audit
-- Auteur de la documentation [AI-Context-Engineering](https://github.com/Krigsexe/AI-Context-Engineering)
+- Auteur de [AI-Context-Engineering](https://github.com/Krigsexe/AI-Context-Engineering) & [Yggdrasil](https://github.com/Krigsexe/yggdrasil)
 - Entrepreneur avec plus de 5 années d'expérience
 - Contributeur actif à des projets open source et communautaires
 
@@ -261,7 +261,7 @@ Consulting, application development, and cloud infrastructures for startups and 
 **Community and open source projects**
 - Founder of the Man-Q-ind project, focused on AI ethics and the future of AI  
 - Creator of the ODIN framework, an autonomous AI agent for development and auditing  
-- Author of [AI-Context-Engineering documentation](https://github.com/Krigsexe/AI-Context-Engineering)  
+- Author of [AI-Context-Engineering](https://github.com/Krigsexe/AI-Context-Engineering) & [Yggdrasil](https://github.com/Krigsexe/yggdrasil) 
 - Entrepreneur with over 5 years of experience  
 - Active contributor to open source and community projects  
 
