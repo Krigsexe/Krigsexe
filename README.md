@@ -182,7 +182,7 @@ What I do know: building AI that confidently hallucinates isn't good enough. We 
 
 <div align="center">
 
-*Dernière mise à jour / Last updated: December 2024*
+*Dernière mise à jour / Last updated: December 2025*
 
 *"Une machine qui connaît ses limites et agit pour les dépasser est plus utile qu'une qui prétend tout savoir."*
 
