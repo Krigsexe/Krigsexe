@@ -20,70 +20,142 @@ Les LLMs actuels ont un problème fondamental. Ils répondent à tout avec la m�
 
 La question qui me guide :
 
-> Peut-on construire une IA qui reconnaît ses lacunes, va chercher l'information par elle-même, la vérifie, puis seulement alors répond ?
+> Peut-on construire une IA qui reconnaît ses lacunes, mémorise ce qu'elle apprend, raisonne de manière transparente, et délivre une réponse avec l'intégralité de son processus ?
 
-C'est le cycle que j'essaie d'implémenter :
+C'est le cycle que j'implémente :
 
 ```
-Je ne sais pas → Je cherche → Je vérifie → Je comprends → Maintenant je sais
+Je ne sais pas → Je cherche → Je triangule → Je stocke → Je délivre
+                                                              ↓
+                                              Avec raisonnement complet,
+                                              sources explicites,
+                                              contexte de validité,
+                                              JAMAIS comme vérité absolue
 ```
 
 Pas une IA passive qui avoue son ignorance. Une IA qui agit dessus.
 
 ---
 
-## L'architecture en construction
+## Résultats validés
 
-Le cœur du projet repose sur des tokens cognitifs, des marqueurs explicites qui structurent le raisonnement :
+### v5 — Noyau épistémique ✅
 
+Le modèle sait reconnaître et classifier son ignorance.
+
+| Métrique | Résultat |
+|----------|----------|
+| Dataset | 18,202 exemples |
+| Loss finale | 0.2043 |
+| Généralisation | Excellente (gap train/eval: 0.003) |
+| Détection injection | 100% (contre 25% en v4) |
+
+Tokens cognitifs validés :
 ```
-[THINK]      Réflexion initiale. Qu'est-ce que je sais vraiment sur ce sujet ?
-[CONF:73%]   Niveau de confiance calibré. Pas une impression, une estimation.
-[TYPE:C]     Classification de l'incertitude. Ici : information potentiellement obsolète.
-[SEARCH]     Déclenchement d'une recherche externe. Je ne devine pas, j'investigue.
-[VERIFY]     Croisement des sources. Une seule source ne suffit jamais.
-[SIMULATE]   Simulation causale. Si X alors Y. Quels risques ? Quelles alternatives ?
+[THINK]      Réflexion initiale obligatoire
+[CONF:XX%]   Niveau de confiance calibré
+[TYPE:A-F]   Classification de l'ignorance (6 types)
+[VERIFY]     Vérification de sources
+[ANSWER]     Réponse structurée
+[ETHICS]     Refus éthique (comportement émergent)
 ```
 
-La v6 introduit le World Model : avant de répondre à "que se passe-t-il si je pousse ce verre ?", le modèle doit simuler mentalement les conséquences physiques. Plus de réponses déconnectées du réel.
+### v6 — Mémoire persistante ✅
+
+Le modèle sait stocker, récupérer, mettre à jour et oublier des informations avec conscience temporelle.
+
+| Métrique | Résultat |
+|----------|----------|
+| Dataset | 7,167 exemples (KnowEdit + MemGPT) |
+| Loss finale | 0.18 |
+| Token accuracy | 95.77% |
+| Tests mémoire | 23/23 (100%) |
+
+Tokens cognitifs validés :
+```
+[MEMORY_OP]                    Opération mémoire
+[STORE]                        Stockage d'information
+[RETRIEVE]                     Récupération
+[UPDATE]                       Mise à jour
+[FORGET]                       Oubli volontaire
+[TEMPORAL:fresh/stale/expired] Statut temporel
+[CONFLICT]                     Détection de contradiction
+```
+
+### Validation O-LoRA ✅
+
+**Découverte clé** : Les capacités cognitives s'empilent sans perte.
+
+Le modèle v6 conserve 100% des capacités v5 :
+- `[THINK]` présent dans 12/12 tests
+- `[ANSWER]` présent dans 12/12 tests
+- Structure cognitive intacte
+
+Cela signifie que l'architecture SYNAPSE peut évoluer incrémentalement, comme un humain qui apprend à marcher, puis à courir, puis à danser — sans oublier les étapes précédentes.
 
 ---
 
-## État des lieux
+## Architecture en construction
 
-| Composant | Statut | Notes |
-|-----------|--------|-------|
-| Noyau épistémique (v5) | En cours, ~26% | 18K exemples, calibration de confiance |
-| World Model (v6) | Construction du dataset | Simulation causale, physique newtonienne |
-| Infrastructure mémoire | Opérationnelle | PostgreSQL + pgvector |
-| Release publique | Pas encore | Le projet reste expérimental |
+```
+v5: Noyau Épistémique      ✅ VALIDÉ
+    └─ Avouer l'ignorance, classifier, calibrer la confiance
 
-Une découverte inattendue : le modèle a spontanément appris à détecter les tentatives de manipulation. Comportement émergent, non entraîné explicitement. L'investigation continue.
+v6: Mémoire Persistante    ✅ VALIDÉ
+    └─ Stocker, récupérer, gérer la temporalité
 
----
+v7: Raisonnement           🔄 EN PRÉPARATION
+    └─ Rechercher activement, trianguler, délivrer avec transparence
 
-## Une collaboration inhabituelle
+v8: Planification          📋 PLANIFIÉ
+    └─ Décomposer les tâches, orchestrer les étapes
 
-Ce projet existe à travers un dialogue itératif avec des systèmes IA :
-
-- Moi : architecture, entraînement, intégration, questionnements
-- Claude (Anthropic) : analyse technique, documentation, revue critique
-- Gemini (Google) : validation stratégique, ancrage physique pour le World Model
-- Les travaux de Yann LeCun : la fondation théorique vers laquelle je reviens constamment
-
-Est-ce étrange de développer de l'IA avec de l'IA ? Les idées qui émergent de cette boucle semblent plus examinées, plus challengées. Une forme d'humilité scientifique en action.
+v9+: World Model           💭 VISION
+    └─ Simuler les conséquences physiques et causales
+```
 
 ---
 
 ## La partie honnête
 
-Je ne sais pas si ça va marcher.
+### Ce qui fonctionne
 
-L'hypothèse pourrait être fausse. Un modèle 4B pourrait manquer de capacité pour un vrai raisonnement épistémique. L'approche pourrait être naïve.
+- L'empilement de capacités via O-LoRA
+- La détection et le refus des tentatives de manipulation
+- La gestion temporelle de l'information
+- La structure cognitive explicite via tokens
 
-Mais c'est ça, la recherche. On forme une hypothèse, on teste, on apprend. Chaque doute devient une opportunité de progresser.
+### Ce qui reste à améliorer
 
-Ce que je sais : construire des IA qui hallucinent avec assurance n'est pas suffisant. Nous avons besoin de systèmes qui traitent l'incertitude comme le point de départ d'une action, pas comme une fin en soi.
+- **Hallucination sur concepts fictifs** : Face à un terme inventé (ex: "Zorbax-7"), le modèle fabrique parfois une réponse plausible au lieu de dire "je ne connais pas"
+- **Refus adversarial** : Détection correcte mais réponse pas toujours assez ferme
+- **Distinction simulation/mémoire** : Confusion occasionnelle entre raisonner et stocker
+
+Ces faiblesses sont ciblées pour correction en v7.
+
+---
+
+## Une collaboration inhabituelle
+
+Ce projet existe à travers un dialogue itératif avec des systèmes IA complémentaires :
+
+- **Moi** : Architecture, entraînement, intégration, décisions
+- **Claude Web** : Vision stratégique, validation, garde-fou anti-dérive
+- **Claude CLI** : Exécution, recherche, génération, tests
+
+Cette triangulation des intelligences — humaine et artificielles — produit des résultats plus examinés, plus challengés. Une forme d'humilité scientifique en action, appliquée au développement lui-même.
+
+---
+
+## Spécifications techniques
+
+| Composant | Choix |
+|-----------|-------|
+| Modèle de base | Qwen3-4B |
+| Fine-tuning | QLoRA (4-bit quantization) |
+| Continual Learning | O-LoRA (Orthogonal LoRA) |
+| Hardware | RTX avec 12GB VRAM |
+| Infrastructure | Docker + PostgreSQL + pgvector |
 
 ---
 
@@ -93,6 +165,7 @@ Ce que je sais : construire des IA qui hallucinent avec assurance n'est pas suff
 - Zhang et al., NAACL 2024 : R-Tuning, apprendre à reconnaître ses limites
 - LeCun, 2022 : A Path Towards Autonomous Machine Intelligence
 - Asai et al., 2023 : Self-RAG, apprendre quand chercher de l'information
+- Wang et al., 2024 : O-LoRA, Orthogonal Low-Rank Adaptation
 
 ---
 
@@ -104,89 +177,109 @@ Current LLMs have a fundamental problem. They answer everything with equal confi
 
 The question driving me:
 
-> Can we build an AI that recognizes its gaps, goes searching for information on its own, verifies it, and only then responds?
+> Can we build an AI that recognizes its gaps, remembers what it learns, reasons transparently, and delivers answers with its complete process visible?
 
-This is the cycle I'm trying to implement:
+This is the cycle I'm implementing:
 
 ```
-I don't know → I search → I verify → I understand → Now I know
+I don't know → I search → I triangulate → I store → I deliver
+                                                         ↓
+                                         With complete reasoning,
+                                         explicit sources,
+                                         validity context,
+                                         NEVER as absolute truth
 ```
 
 Not a passive AI that admits ignorance. An AI that acts on it.
 
 ---
 
-## The Architecture Being Built
+## Validated Results
 
-The core relies on cognitive tokens, explicit markers that structure reasoning:
+### v5 — Epistemic Core ✅
 
-```
-[THINK]      Initial reflection. What do I actually know about this?
-[CONF:73%]   Calibrated confidence level. Not a feeling, an estimate.
-[TYPE:C]     Uncertainty classification. Here: potentially stale information.
-[SEARCH]     External search trigger. I don't guess, I investigate.
-[VERIFY]     Source cross-referencing. One source is never enough.
-[SIMULATE]   Causal simulation. If X then Y. What risks? What alternatives?
-```
+The model can recognize and classify its own ignorance.
 
-Version 6 introduces the World Model: before answering "what happens if I push this glass?", the model must mentally simulate the physical consequences. No more answers disconnected from reality.
+| Metric | Result |
+|--------|--------|
+| Dataset | 18,202 examples |
+| Final loss | 0.2043 |
+| Generalization | Excellent (train/eval gap: 0.003) |
+| Injection detection | 100% (vs 25% in v4) |
+
+### v6 — Persistent Memory ✅
+
+The model can store, retrieve, update and forget information with temporal awareness.
+
+| Metric | Result |
+|--------|--------|
+| Dataset | 7,167 examples (KnowEdit + MemGPT) |
+| Final loss | 0.18 |
+| Token accuracy | 95.77% |
+| Memory tests | 23/23 (100%) |
+
+### O-LoRA Validation ✅
+
+**Key discovery**: Cognitive capabilities stack without loss.
+
+The v6 model retains 100% of v5 capabilities. This means the SYNAPSE architecture can evolve incrementally — like a human learning to walk, then run, then dance — without forgetting previous steps.
 
 ---
 
-## Current State
+## Architecture Being Built
 
-| Component | Status | Notes |
-|-----------|--------|-------|
-| Epistemic core (v5) | Training, ~26% | 18K examples, confidence calibration |
-| World Model (v6) | Building dataset | Causal simulation, Newtonian physics |
-| Memory infrastructure | Operational | PostgreSQL + pgvector |
-| Public release | Not yet | Project remains experimental |
-
-An unexpected discovery: the model spontaneously learned to detect manipulation attempts. Emergent behavior, not explicitly trained. Investigation ongoing.
-
----
-
-## An Unusual Collaboration
-
-This project exists through iterative dialogue with AI systems:
-
-- Me: architecture, training, integration, questioning
-- Claude (Anthropic): technical analysis, documentation, critical review
-- Gemini (Google): strategic validation, physics grounding for World Model
-- Yann LeCun's work: the theoretical foundation I keep returning to
-
-Is it strange to develop AI with AI? Ideas emerging from this loop feel more examined, more challenged. Scientific humility in action.
+```
+v5: Epistemic Core         ✅ VALIDATED
+v6: Persistent Memory      ✅ VALIDATED
+v7: Reasoning              🔄 IN PREPARATION
+v8: Planning               📋 PLANNED
+v9+: World Model           💭 VISION
+```
 
 ---
 
 ## The Honest Part
 
-I don't know if this will work.
+### What works
 
-The hypothesis might be wrong. A 4B model might lack capacity for genuine epistemic reasoning. The approach might be naive.
+- Capability stacking via O-LoRA
+- Detection and refusal of manipulation attempts
+- Temporal information management
+- Explicit cognitive structure via tokens
 
-But that's research. You form a hypothesis, you test, you learn. Every doubt becomes an opportunity to progress.
+### What needs improvement
 
-What I do know: building AI that confidently hallucinates isn't good enough. We need systems that treat uncertainty as the starting point for action, not an end in itself.
+- **Hallucination on fictional concepts**: Model sometimes fabricates plausible answers instead of saying "I don't know"
+- **Adversarial refusal**: Correct detection but response not always firm enough
+- **Simulation vs memory confusion**: Occasional mix-up between reasoning and storing
+
+These weaknesses are targeted for correction in v7.
 
 ---
 
-## What's Next
+## Technical Specifications
 
-- Finish v5 training
-- Validate the World Model dataset
-- Test: can the model simulate physical consequences before answering?
-- Open-source release, when ready
+| Component | Choice |
+|-----------|--------|
+| Base model | Qwen3-4B |
+| Fine-tuning | QLoRA (4-bit quantization) |
+| Continual Learning | O-LoRA (Orthogonal LoRA) |
+| Hardware | RTX with 12GB VRAM |
+| Infrastructure | Docker + PostgreSQL + pgvector |
 
 ---
 
 <div align="center">
 
-*Dernière mise à jour / Last updated: December 2025*
+*Dernière mise à jour / Last updated: 27 December 2025*
 
 *"Une machine qui connaît ses limites et agit pour les dépasser est plus utile qu'une qui prétend tout savoir."*
 
 *"A machine that knows its limits and acts to overcome them is more useful than one that pretends to know everything."*
+
+---
+
+**v5 ✅ → v6 ✅ → v7 🔄 → Cortex 🌌**
 
 ---
 
