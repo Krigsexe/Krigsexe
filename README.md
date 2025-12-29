@@ -550,7 +550,7 @@ SYNAPSE is an exploration, conducted with methodology and intellectual humility.
 
 ---
 
-*"Un système qui apprend sur ce qu'il a vérifié mériter d'être appris — c'est peut-être ça, l'intelligence."*
+*"Un système qui choisit ce qu'il apprend après l'avoir vérifié — c'est peut-être ça, la vraie intelligence."*
 
 *"A system that learns from what it has verified deserves to be learned — perhaps that's intelligence."*
 
