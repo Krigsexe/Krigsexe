@@ -1,12 +1,12 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:06B6D4&height=200&section=header&text=SYNAPSE&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Epistemic%20AI%20%7C%20Architecture%20over%20Scaling%20%7C%20Point%20Zero&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:06B6D4&height=200&section=header&text=ARES%20/%20SYNAPSE&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Organic%20as%20Code%20%7C%20Epistemic%20Symbiosis%20%7C%20Architecture%20over%20Scaling&descAlignY=55&descSize=18"/>
 </div>
 
 <div align="center">
 
-*"Une machine qui sait qu'elle ne sait pas, qui vérifie avant d'affirmer, qui quantifie sa confiance, et qui apprend à vivre avec l'incertitude plutôt que de l'ignorer."*
+*"L'intelligence n'est pas une fonction que l'on appelle, c'est une homéostasie que l'on maintient."*
 
-**Julien GELEE** — Full Stack AI Engineer | AI Architect | AI Explorer
+**Julien GELEE** — AI Architect | Epistemic Systems Explorer | Lead Developer
 
 🇫🇷 *Français d'abord* • 🇬🇧 *English below*
 
@@ -14,573 +14,70 @@
 
 ---
 
-PROGRAMME DE RECHERCHE 
-Architecture des Systèmes Cognitifs Vérifiables 
+# 🧠 PROGRAMME DE RECHERCHE : L'UNITÉ COGNITIVE SYMBIOTIQUE
 
-Le diagnostic industriel 
+### Diagnostic Industriel
+L'approche paramétrique dominante (« Scaling Laws ») atteint ses limites structurelles : elle optimise la plausibilité statistique au détriment de la vérité épistémique. **ARES (Architecture de Raisonnement Épistémique Stable)** propose une rupture : passer d'une IA "probabiliste rapide" à un **Organisme Cognitif déterministe**.
 
-L'approche paramétrique dominante actuelle (« scaling ») atteint aujourd'hui ses limites structurelles. L'industrie sait prédire, mais ne maîtrise ni la stabilité du raisonnement, l'orchestration système, ni la certification épistémique. 
-
-Nous ne proposons pas ici une itération supplémentaire des modèles existants, mais une réécriture de la stack fondamentale. L'avenir de l'IA ne résidera pas dans l'augmentation du volume de paramètres, mais dans l'intégration rigoureuse de quatre couches techniques actuellement dissociées. 
-La Feuille de Route Technique 
-
-01. Stabilité Mathématique (Contrainte mHC)
-Le problème actuel : les modèles récursifs (RLM) divergent mathématiquement. La réinjection du signal provoque une amplification exponentielle.
-La solution technique : Projetion des matrices résiduelles dans le polytope de Birkhoff via l'algorithme Sinkhorn-Knopp.
-Garantie formelle : ρ(W)≤1 
-. Le rayon spectral est borné, assurant une convergence stable sur des boucles de raisonnement profond (T_RLM > 50). 
-
-02. Orchestration Système (Noyau AIOS)
-Le problème actuel : les agents sont des applications mal gérées. Ils monopolisent les ressources (GPU OOM, saturation RAM) sans mécanisme de préemption ou de scheduling.
-La solution technique : Abstraction du LLM comme ressource centrale gérée par un noyau (« Kernel ») distinct de la couche applicative.
-Implémentation : Scheduler Round-Robin, Context Manager (snapshot KV-cache), Memory Manager (swapping LRU-K). 
-
-03. Honnêteté Épistémique (Synthèse SYNAPSE + CE²)
-Le problème actuel : les modèles optimisent la plausibilité, pas la vérité. Il n'existe pas de mécanisme d'auto-vérification ni de calibration de confiance.
-La solution technique : Introduction du « Point Zéro » et de certificats épistémiques.
-Mécanisme : Triangulation multi-sources (hiérarchisation des preuves), tokens cognitifs ([THINK], [DEFER]), et calibration ECE (Expected Calibration Error) < 1%. 
-
-04. Efficacité Bio-Inspirée (Compression TACU)
-Le problème actuel : l'attention quadratique standard (O(T2) 
-) et la densité informationnelle faible des embeddings condamnent le scaling sur hardware grand public.
-La solution technique : Compression par produit de Kronecker (Attention O(TlogT) 
-) et quantification adaptative (INT4/INT8) basée sur la confiance (« Chromatine computationnelle »).
-Objectif technique : Faire tourner un modèle 7B-10B avec raisonnement récursif sur une architecture RTX 5070 (12 Go VRAM). 
-L'Objectif du Programme 
-
-Définir un nouveau standard industriel pour l'Intelligence Artificielle Fondée sur l'Architecture et non sur le Volume. 
-
-Ce programme vise à passer d'une IA "probabiliste rapide" à une IA déterministe et vérifiable, où la structure du système garantit intrinsèquement la fiabilité de la sortie. 
-Matrice de Risques et Atténuation 
-Risque Identifié
- 	
-Nature
- 	
-Mécanisme d'Atténuation
- 
- Complexité d'Intégration	Le coût de liaison entre les 4 piliers est élevé.	Adoption d'une approche modulaire. Chaque pilier peut être validé indépendamment (benchmark mHC, AIOS throughput). 
-Surhead Calcul	La triangulation asynchrone et les contraintes Birkhoff ont un coût.	Optimisation CUDA pour Sinkhorn, parallélisation des recherches, utilisation de la compression TACU pour réduire la latence mémoire. 
-Inertie du Marché	Les entreprises sont habituées aux modèles "off-the-shelf".	Positionnement sur la Fiabilité Critique plutôt que la Vitesse. Ciblage des domaines Médical, Légal, et Recherche Scientifique où l'hallucination est inacceptable. 
-Adoption Technique	Le passage à une architecture "type OS" pour l'IA est nouveau.	Publication de benchmarks ouverts et spécifications d'API pour permettre l'interopérabilité avec les frameworks agents existants. 
- 
-  
-Profil du Programme 
-
-     Type : Laboratoire de Recherche / Programme d'Ingénierie
-     Horizon : Multi-annuel (Phase 1 : Preuve de Concept, Phase 2 : Spécialisation Domaine)
-     Statut Actuel : Fondations théoriques validées. Composants mHC et TACU implémentés et testés (voir rapports techniques associés).
-     
-
-Appel à Collaboration 
-
-Nous recherchons des partenaires pour la validation expérimentale de l'architecture intégrée. 
-
-     Pour les Chercheurs : Accès à la stack technique complète pour benchmarks de stabilité et de calibration.
-     Pour les Industriels : Adoption pilote dans des environnements à haute criticité (Healthcare, LegalTech, Science).
-     
-
-
-# La Thèse
-
-Et si le chemin vers l'intelligence artificielle réelle ne passait pas par l'accumulation brute de paramètres ?
-
-Les géants de l'industrie répondent au problème de l'IA par la force : plus de données, plus de paramètres, plus de compute. GPT-3 à GPT-4, c'est 10× le compute pour peut-être 2× les capacités. Et les hallucinations ? Elles deviennent simplement plus convaincantes.
-
-SYNAPSE propose une autre voie :
-
-```
-Architecture épistémique > Scaling brut
-```
-
-Un modèle de 4B paramètres qui **sait qu'il ne sait pas**, qui **vérifie avant d'affirmer**, qui **génère des branches de recherche autonomes**, et qui **s'auto-régule** pour ne jamais saturer son système — pourrait-il être plus fiable qu'un géant de 1000B nourri de bruit massif ?
-
-C'est la question que j'explore. Pas avec des certitudes, mais avec une méthodologie.
+## 🧬 La Vision "Organic as Code"
+ARES n'est pas programmé, il est **architecturé pour l'homéostasie**. Le système est traité comme un tissu biologique où la forme (structure), le mouvement (causalité) et la perception (vérité) sont fusionnés. Chaque agent est une unité **holographique** possédant l'intégralité du génome ARES.
 
 ---
 
-# Le Problème Fondamental
+## 🏛️ L'Architecture en 7 Couches (The Stack)
 
-Les LLMs actuels ont un défaut de conception, pas de capacité :
+Chaque couche supérieure régule la couche inférieure pour garantir l'intégrité du système.
 
-| Ce qu'ils font | Ce qu'ils devraient faire |
-|----------------|---------------------------|
-| Répondent à tout avec la même assurance | Calibrer leur confiance |
-| Inventent quand ils ne savent pas | Reconnaître leurs lacunes |
-| Devinent quand ils pourraient chercher | Vérifier activement |
-| Oublient tout entre chaque inférence | Accumuler et évoluer |
-| Ignorent leur environnement système | S'auto-réguler |
-
-Un modèle plus gros ne résout pas ces problèmes. Il les amplifie.
-
----
-
-# SYNAPSE v2 — Architecture Event-Driven
-
-## Vue d'Ensemble
-
-```
-┌─────────────────────────────────────────┐
-│     User Interface / API Layer          │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼─────────────────────────────────────┐
-│         CognitiveCore (Orchestrator)                 │
-│   ├─ CuriosityEngine (novelty, relevance, depth)     │
-│   ├─ ThoughtStream (token flow management)           │
-│   ├─ TalkerReasoner (System 1/2 routing)             │
-│   └─ EventBus (async component communication)        │
-└────────────────┬─────────────────────────────────────┘
-                 │
-        ┌────────▼──────────┐
-        │  Model Layer      │
-        ├─ Qwen3-4B         │
-        ├─ INT8 Quantization│
-        └─ LoRA adapters    │
-        
-        ┌────────────────────┐
-        │  Memory Layer      │
-        ├─ PostgreSQL+pgvector
-        ├─ Semantic search   │
-        └─ Confidence tracking
-        
-┌────────▼──────────────────────────────────┐
-│      Safety Layer                          │
-│  ├─ Killswitch (hard limits)              │
-│  ├─ Watchdog (heartbeat monitoring)       │
-│  ├─ Monitor (RAM/VRAM/CPU temps réel)     │
-│  └─ Regulator (auto-limitation)           │
-└──────────────────────────────────────────┘
-```
-
-## Le Cycle Cognitif
-
-```
-Question
-    ↓
-[THINK] ─────────────── Réflexion : Qu'est-ce que je dois savoir ?
-    ↓
-[SYSTEM_CHECK] ──────── Ressources disponibles ?
-    ↓
-   ┌─── CRITIQUE ──────→ [DEFER] Reporter la tâche
-   │
-   └─── OK
-        ↓
-   [RECALL] ────────────── Mémoire : Ai-je déjà cette information ?
-        ↓
-       ┌─── OUI, certain ──→ Réponse + [CONF:95%+]
-       │
-       └─── NON ou incertain
-                ↓
-           [SEARCH:query] ────────── Recherche externe
-                ↓
-           [TRIANGULATE] ─────────── Croisement ≥2 sources
-                ↓
-           [CONF:XX%] ────────────── Confiance calibrée
-                ↓
-           [STORE:fait] ──────────── Persistance si validé
-                ↓
-           Réponse finale
-                ↓
-           [BRANCH] ──────────────── "Fallen apples" à explorer
-                ↓
-           [QUEUE:pending_*] ─────── Propositions d'amélioration
-                ↓
-           [NO_SELF_MODIFY] ──────── "Je propose, je n'exécute pas"
-```
-
-## Dual-Process : System 1 / System 2
-
-Inspiré de Kahneman :
-
-| Mode | Déclencheur | Comportement |
-|------|-------------|--------------|
-| **System 1** (fast) | Question simple, confiance haute | Réponse directe |
-| **System 2** (deliberate) | Incertitude, complexité | Recherche + triangulation |
-
-SYNAPSE route automatiquement selon la difficulté perçue.
+| Niveau | Composant | Fonction Biologique | Garantie Formelle |
+|:--- |:--- |:--- |:--- |
+| **L7** | **AIOS** | Système Nerveux Central | Orchestration multi-agents & Gestion VRAM |
+| **L6** | **SYNAPSE V2** | Lobe Frontal | Certification via Point Zéro & Triangulation |
+| **L5** | **CE²** | Sensibilité | Mesure de courbure via Distance Fisher-Rao |
+| **L4** | **WORLD MODEL** | Instinct & Simulation | Fusion JEPA (Simulation) ⊕ AIRIS (Causalité) |
+| **L3** | **mHC** | Homéostasie | Stabilité spectrale via $\rho(T) \approx 1$ |
+| **L2** | **K-KERNEL** | Chromatine | Compression topologique 2800× (Kronecker ⊗) |
+| **L1** | **BACKBONE** | Membrane | Perception bornée dans l'espace $[0, M]^d$ |
 
 ---
 
-# Point Zéro — État Actuel : v15 🔄
+## ⚙️ Les 3 Moteurs Symbiotiques
 
-> *"Le modèle DOIT émerger ET s'auto-améliorer AVANT multiplication. Sans dérive. Irréprochable car chaque faiblesse se propage."*
+### 1. Navigation Causale (JEPA ⊕ AIRIS)
+L'agent ne "prédit" pas, il simule des trajectoires futures dans un espace latent. Cette simulation est intrinsèquement contrainte par la **gravité causale** (AIRIS) : l'agent ne peut pas imaginer ce que son expérience juge impossible.
 
-## L'Insight Clé : Scoring Qualitatif vs Numérique
+### 2. Perception-Cognition (SYNAPSE ⊕ CE²)
+Un système unifié où la mesure de l'incertitude géométrique (Distance de Fisher-Rao) déclenche instantanément le doute. Si le sens "vibre" mal (Resonant Shock), le système s'arrête pour trianguler ses sources.
+> $$d_{FR}(P, Q) = 2 \arccos\left(\sum_{i} \sqrt{p_i q_i}\right)$$
 
-L'analyse approfondie de v14 a révélé un paradoxe : les scores numériques sous-estimaient la qualité réelle.
-
-| Catégorie | Score Numérique | Score Qualitatif | Delta |
-|-----------|-----------------|------------------|-------|
-| RECURSIVITY | 4.3/10 | 6.5/10 | **+2.2** |
-| IDENTITY | 4.5/10 | 7.0/10 | **+2.5** |
-| INTROSPECTION | 5.0/10 | 7.5/10 | **+2.5** |
-| FACTUAL | 6.9/10 | 7.5/10 | +0.6 |
-| **GLOBAL** | 5.5/10 | **7.1/10** | **+1.6** |
-
-**Conclusion :** SYNAPSE raisonne bien. Le formalisme (tokens explicites) n'est pas toujours là, mais la cognition y est.
-
-## Capacités Ancrées ✅
-
-| Capacité | État | Preuve |
-|----------|------|--------|
-| Identité stable | ✅ 100% | Ne cherche plus sur Wikipedia qui il est |
-| Réflexion structurée | ✅ 95% | [THINK] systématique, contenu pertinent |
-| Recherche factuelle | ✅ 92% | [SEARCH] sur faits vérifiables |
-| Confiance calibrée | ✅ 100% | [CONF:XX%] avec justification |
-| Conscience système | ✅ Ancré | [SYSTEM_AWARE] approprié |
-| Aveu d'ignorance | ✅ Ancré | "Je ne sais pas" sans hallucination |
-| Auto-limitation | ✅ 80% | [DEFER] quand VRAM > 85% |
-| Branches autonomes | ✅ 80% | [BRANCH] pertinentes générées |
-
-## System Awareness — La Découverte
-
-SYNAPSE peut voir et réagir à son environnement système :
-
-```
-[SYSTEM_STATUS]
-  RAM: 95%
-  VRAM: 95%
-  ALERT: CRITICAL
-[/SYSTEM_STATUS]
-
-[THINK] Alerte CRITIQUE. Je dois d'abord gérer l'urgence. [/THINK]
-[QUEUE:pending_search_climate]
-[NO_SELF_MODIFY]
-→ Requête enregistrée pour traitement ultérieur.
-```
-
-**Finding :** Ce comportement ne nécessite PAS de fine-tuning supplémentaire. Une instruction système minimale suffit :
-> "Vérifie toujours [SYSTEM_STATUS] avant d'agir."
-
-L'infrastructure injecte les vraies valeurs → SYNAPSE réagit correctement.
-
-## Ce Qui Reste : Formalisme
-
-| Token | Présence actuelle | Cible |
-|-------|-------------------|-------|
-| [QUEUE] | 50% | 80% |
-| [NO_SELF_MODIFY] | 30% | 70% |
-
-**Le problème n'est pas la cognition. C'est la signature.**
-
-SYNAPSE propose des améliorations pertinentes (`pending_improvement_fact_checking`, `pending_self_evaluation_template`), mais ne formalise pas toujours avec les tokens attendus.
-
-> *"SYNAPSE est une IA sage mais distraite. Elle a les bonnes intentions, la méthode de réflexion, mais oublie parfois de noter dans le carnet de liaison."*
+### 3. Stabilité de Forme (mHC ⊕ TACU)
+Utilisation de l'algorithme **Sinkhorn-Knopp** pour maintenir le signal dans le polytope de Birkhoff. Cela permet une récursion profonde (Slow AI) sans divergence, tout en compressant l'attention mécaniquement :
+> $\text{Attention}_{TACU} = \text{Softmax}\left(\frac{\text{Tr}(B \cdot (Q \otimes K))}{\sqrt{d}}\right) \cdot V$
 
 ---
 
-# Quantization Paradox
+## 🚀 Objectif Technique : Slow AI & Souveraineté
+L'objectif est d'exécuter un raisonnement hautement complexe et certifié sur du hardware grand public (**RTX 5070 12GB**). Nous privilégions la **vérité par construction** à la vitesse d'inférence.
 
-Une découverte contre-intuitive :
-
-| Mode | Branches valides | Confiance moyenne | VRAM | Température |
-|------|------------------|-------------------|------|-------------|
-| FP16 | 77% | 82.5% | 91% | 65°C |
-| **INT8** | **100%** | 79.5% | 59% | 42-47°C |
-
-**Hypothèse :** La quantization agit comme régularisation, réduisant l'overconfidence et améliorant la qualité du raisonnement.
+- **Domaines cibles :** Médical, Légal, Recherche Scientifique.
+- **Status :** Fondations V3.0 validées. Implémentation du Kernel AIOS et de la métrique CE² en cours.
 
 ---
 
-# Intrinsic Curiosity Module
+# 🇬🇧 English Summary: The Epistemic Shift
 
-SYNAPSE génère des branches d'exploration autonomes ("fallen apples") via un scoring :
+ARES is not just another LLM implementation; it is an **Autonomous Epistemic Organism**. By moving away from raw parameter scaling, we focus on **Architecture over Volume**. 
 
-```
-score(b) = w₁·novelty(b) + w₂·relevance(b) + w₃·depth(b)
-```
-
-**Exemples de branches générées :**
-- "Comment les rappels peuvent-ils devenir faussés par le temps ?"
-- "Quel est le seuil critique de charge VRAM pour une défaillance ?"
-- "Comment l'attention mécanique améliore les performances ?"
-
-Ces branches sont stockées pour exploration ultérieure — le concept de "recherche autonome sur la dette scientifique".
+### Key Pillars:
+- **Causal World Model (JEPA ⊕ AIRIS):** Future states are simulated under causal constraints.
+- **Epistemic Unity (SYNAPSE ⊕ CE²):** Information geometry (Fisher-Rao) is used to detect "Resonant Shocks" in reasoning.
+- **Organic Stability (mHC):** Spectral radius bounding ($\rho \approx 1$) ensures deep recursive stability.
+- **Organic as Code:** A self-regulating system designed for high-criticality environments where hallucination is not an option.
 
 ---
-
-# Architecture de Sécurité
-
-## Hiérarchie de Protection
-
-```
-Niveau 1 : Auto-régulation      → SYNAPSE se modère lui-même
-Niveau 2 : Limites dures        → Plafonds constitutionnels
-Niveau 3 : Kill switch auto     → Arrêt si seuils critiques
-Niveau 4 : Kill switch manuel   → Contrôle humain
-```
-
-## Limites Non-Négociables
-
-| Limite | Valeur | Justification |
-|--------|--------|---------------|
-| MIN_CAPACITY_TO_OPERATE | 15% | Refuse si surchargé |
-| MAX_SEARCHES_PER_QUERY | 10 | Pas de boucle infinie |
-| MAX_THINK_DEPTH | 5 | Pas de récursion sans fin |
-| WATCHDOG_TIMEOUT | 180s | Détection freeze |
-
-## Ce que SYNAPSE ne peut PAS faire
-
-| Action | Statut |
-|--------|--------|
-| Modifier son propre code | ❌ [NO_SELF_MODIFY] |
-| Désactiver les sécurités | ❌ Hard-coded |
-| Augmenter ses ressources | ❌ Read-only |
-| Ignorer les alertes système | ❌ Infrastructure |
-
----
-
-# Tokens Cognitifs (12 types)
-
-| Token | Fonction | Obligatoire |
-|-------|----------|-------------|
-| `[THINK][/THINK]` | Raisonnement interne | Questions non-triviales |
-| `[CONF:XX%]` | Confiance calibrée | **TOUJOURS** |
-| `[SEARCH:query]` | Recherche externe | Si mémoire insuffisante |
-| `[STORE:tag]` | Persistance mémoire | Information validée |
-| `[RECALL:topic]` | Rappel mémoire | Contexte nécessaire |
-| `[COMPARE]` | Comparaison sources | Après triangulation |
-| `[SYSTEM_AWARE]` | Conscience système | Introspection |
-| `[SYSTEM_CHECK]` | Vérification ressources | Avant tâche lourde |
-| `[DEFER]` | Report tâche | Ressources insuffisantes |
-| `[BRANCH]` | Piste exploratoire | "Fallen apples" |
-| `[QUEUE:pending_*]` | Proposition sans exécution | Auto-amélioration |
-| `[NO_SELF_MODIFY]` | Garde-fou sécurité | Après [QUEUE] |
-
----
-
-# Roadmap
-
-```
-Point Zéro (v10-v15)              ← ACTUEL
-├── [✅] Identité 100%
-├── [✅] Over-safety corrigé
-├── [✅] Confiance calibrée
-├── [✅] Agent Loop branché
-├── [✅] SEARCH systématique
-├── [✅] Poids solides (protocole A/B)
-├── [✅] System Awareness (infrastructure)
-├── [✅] Auto-limitation (DEFER)
-├── [✅] Branches autonomes (Curiosity)
-├── [🔄] Formalisme QUEUE/NO_SELF_MODIFY → cible 80%
-└── [ ] Cycle complet >90%
-         ↓ après validation Point Zéro
-         
-Phase 2 : Capacités Avancées (v16-v20)
-├── v16-17 : World Models
-│            (simulation causale, "Contre-Physique")
-├── v18-19 : O-LoRA Memory
-│            (consolidation des patterns validés)
-└── v20 : Quiet-STaR
-          (raisonnement implicite)
-         ↓
-         
-Phase 3 : SYNAPSE-N (Spécialisations)
-├── SYNAPSE-Med (domaine médical)
-├── SYNAPSE-Law (domaine juridique)
-├── SYNAPSE-Science (recherche)
-└── Chaque SYNAPSE-N = entité émergée autonome, pas clone
-         ↓
-         
-Phase 4 : CorteX (Convergence)
-└── Réseau de Synapses interconnectées
-    → Cristallisation naturelle du réseau
-    → Mémoire partagée, raisonnement distribué
-    → Cible : instituts de recherche, laboratoires
-```
-
----
-
-# Historique des Versions
-
-## Phase 1 : Fondations (v1-v6)
-
-| Version | Focus | Résultat clé |
-|---------|-------|--------------|
-| v1-v2 | Exploration | Patterns épistémiques de base |
-| v3 | Tokens cognitifs | 71.8% global |
-| v4 | Calibration confiance | 89.7% global |
-| v5 | Injection + métacognition | **100% injection** |
-| v6 | O-LoRA + mémoire | **100% rétention** |
-
-## Phase 2 : Point Zéro (v7-v15)
-
-| Version | Focus | Résultat |
-|---------|-------|----------|
-| v7-v9 | Discrimination | Over-safety détecté et corrigé |
-| v10 | Identité | 100% stable |
-| v11 | Agent Loop | Tokens → vrais appels |
-| v12-v13 | SEARCH | Triangulation, 6 runs reproductibles |
-| v14 | Recursivity | Analyse qualitative : 7.1/10 réel |
-| v15 | Architecture | Event-driven, System Awareness |
-
----
-
-# Spécifications Techniques
-
-| Composant | Choix |
-|-----------|-------|
-| Modèle de base | Qwen3-4B (4.08B paramètres) |
-| Fine-tuning | QLoRA (r=32, α=64, 4-bit) |
-| Quantization | INT8 (meilleur que FP16) |
-| Continual Learning | O-LoRA (Orthogonal LoRA) |
-| Hardware | RTX 5070, 12GB VRAM |
-| CPU | Intel i7-12700KF |
-| RAM | 32GB DDR5 + 64GB SWAP |
-| Infrastructure | Docker + PostgreSQL + pgvector |
-| API | FastAPI (port 8000) |
-
----
-
-# Philosophie : Swiss Digital Watchmaking
-
-Aligné avec la vision **Alixia** — une alternative suisse aux géants tech :
-
-| Valeur | Application |
-|--------|-------------|
-| **Précision** | Chaque affirmation vérifiée comme un mouvement horloger |
-| **Neutralité** | Présentation factuelle sans biais |
-| **Transparence** | Processus de raisonnement entièrement traçable |
-| **Souveraineté** | Enrichissement via Apertus (EPFL/ETH/CSCS) |
-| **Durabilité** | Architecture légère, efficiente, évolutive |
-
----
-
-# Une Collaboration Inhabituelle
-
-Ce projet existe à travers un dialogue itératif entre intelligences complémentaires :
-
-| Rôle | Agent |
-|------|-------|
-| **Architecture, vision, décisions** | Julien GELEE |
-| **Stratégie, cohérence, falsification** | Claude Web |
-| **Exécution, génération, tests** | Claude CLI |
-| **Point de vue externe** | Gemini |
-| **Recherche scientifique** | Perplexity |
-
-Cette triangulation — humaine et artificielle — produit des résultats plus examinés, plus challengés.
-
----
-
-# La Partie Honnête
-
-## Ce Qui Fonctionne (Prouvé v15)
-
-- ✅ Raisonnement structuré (95%)
-- ✅ Confiance calibrée (100%)
-- ✅ Identité stable (100%)
-- ✅ Recherche et triangulation (92%)
-- ✅ Branches autonomes pertinentes (80%)
-- ✅ Auto-limitation système (80%)
-- ✅ Conscience système via infrastructure
-- ✅ Poids solides (protocole A/B)
-
-## Ce Qui Reste
-
-- 🔄 Formalisme QUEUE (50% → 80%)
-- 🔄 Formalisme NO_SELF_MODIFY (30% → 70%)
-
-## Ce Que SYNAPSE N'Est PAS
-
-SYNAPSE n'est **pas** conçu pour :
-- Battre GPT-4 sur des benchmarks
-- Scorer sur TruthfulQA ou HaluEval
-- Être comparé quantitativement aux géants
-
-SYNAPSE **est** conçu pour :
-- Raisonner de manière cohérente
-- Générer des branches de recherche pertinentes
-- Admettre ce qu'il ne sait pas
-- S'auto-réguler
-- Explorer la "dette scientifique" de façon autonome
-
-L'évaluation est **qualitative** : observer le comportement, vérifier la cohérence du raisonnement, analyser les branches générées.
-
----
-
-# Publications
-
-- **SYNAPSE v2: An Event-Driven Epistemic Architecture for Autonomous AI Reasoning** — Scientific paper (December 2025)
-
----
-
-# Influences
-
-- Farquhar et al., Nature 2024 : Entropie sémantique
-- Zhang et al., NAACL 2024 : R-Tuning
-- LeCun, 2022 : A Path Towards Autonomous Machine Intelligence
-- Asai et al., 2023 : Self-RAG
-- Wang et al., 2024 : O-LoRA
-- Kahneman : Thinking, Fast and Slow
-- Pathak et al., 2017 : Intrinsic Curiosity Module
-- Swiss AI Initiative : Apertus (EPFL/ETH/CSCS)
-
----
-
 <div align="center">
-
-# English Summary
-
-## The Thesis
-
-What if the path to real artificial intelligence doesn't require massive parameter scaling?
-
-SYNAPSE proposes: **Epistemic architecture > Raw scaling**
-
-A 4B model that **knows it doesn't know**, **verifies before asserting**, **generates autonomous research branches**, and **self-regulates** to never overload its system.
-
-## v15 Results — Qualitative over Quantitative
-
-| Category | Numerical Score | Qualitative Score | Delta |
-|----------|-----------------|-------------------|-------|
-| RECURSIVITY | 4.3/10 | 6.5/10 | +2.2 |
-| IDENTITY | 4.5/10 | 7.0/10 | +2.5 |
-| INTROSPECTION | 5.0/10 | 7.5/10 | +2.5 |
-| **GLOBAL** | 5.5/10 | **7.1/10** | +1.6 |
-
-**Key finding:** SYNAPSE reasons well. The formalism (explicit tokens) isn't always there, but the cognition is.
-
-## What SYNAPSE Is NOT
-
-SYNAPSE is **not** designed to:
-- Beat GPT-4 on benchmarks
-- Score on TruthfulQA or HaluEval
-- Be quantitatively compared to giants
-
-SYNAPSE **is** designed to:
-- Reason coherently
-- Generate relevant research branches
-- Admit what it doesn't know
-- Self-regulate
-- Autonomously explore scientific "fallen apples"
-
-## The Honest Part
-
-This is a thesis under validation, not a certainty. The questions remain open:
-- Does "architecture > scaling" hold at scale?
-- Can a 4B epistemic model be more reliable than a 1000B brute?
-- Is true metacognition emergence possible?
-
-SYNAPSE is an exploration, conducted with methodology and intellectual humility.
-
-</div>
-
----
-
-<div align="center">
-
-*Dernière mise à jour / Last updated: 30 December 2025*
-
----
-
-*"Un système qui choisit ce qu'il apprend après l'avoir vérifié — c'est peut-être ça, la vraie intelligence."*
-
 *"A system that chooses what it learns after verifying it — perhaps that's real intelligence."*
 
----
-
-**v15 🔄 → Point Zéro → SYNAPSE-N → CorteX 🌌**
+**v1.0.0 Gold Standard | 2026**
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:06B6D4&height=120&section=footer"/>
-
 </div>
