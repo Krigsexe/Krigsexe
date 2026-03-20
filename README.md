@@ -20,7 +20,7 @@ All repositories closed except [ai-rsk](https://github.com/Krigsexe/ai-rsk).
 
 <div align="center">
 
-v2.0.0 — Mars 2026
+v2.0.0 /// Mars 2026
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:06B6D4&height=120&section=footer"/>
 </div>
