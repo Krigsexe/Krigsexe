@@ -4,7 +4,7 @@
 
 <div align="center">
 
-"L'intelligence n'est pas une fonction que l'on appelle, c'est une homeostaie que l'on maintient."
+"L'intelligence n'est pas une fonction que l'on appelle, c'est une homeostasie que l'on maintient."
 
 Recherches privees en cours.
 Fermeture complete de tous les repositories sauf [ai-rsk](https://github.com/Krigsexe/ai-rsk).
